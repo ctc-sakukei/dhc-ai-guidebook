@@ -1,17 +1,17 @@
 # Claude Code 使用指南
 
-本文档是 `claude-code-usage-guidebook` 文件夹中所有文档的组织规范，用于指导文档的编写、分类和维护。
+本文档是 `claude-code-quickstart` 文件夹中所有文档的组织规范，用于指导文档的编写、分类和维护。
 
 ## 📚 文档分类体系
 
-文档采用四级分类，通过编号区分难度和适用人群：
+文档采用四级分类，通过编号和目录区分难度和适用人群：
 
-| 分类 | 编号范围 | 适用人群 | FAQ 文档 |
-|------|---------|----------|----------|
-| **入门/初学者** | 0-99 | 初次接触 AI 工具的开发者 | [99-入门常见问题FAQ.md](claude-code-usage-guidebook/99-入门常见问题FAQ.md) |
-| **进阶** | 100-499 | 希望提升效率和降低成本的用户 | [499-进阶常见问题FAQ.md](claude-code-usage-guidebook/499-进阶常见问题FAQ.md) |
-| **高级** | 500-899 | Team Leader、架构师 | [899-高级开发常见问题FAQ.md](claude-code-usage-guidebook/899-高级开发常见问题FAQ.md) |
-| **其他杂项** | 900-999 | 对 AI 原理和前沿技术感兴趣的读者 | - |
+| 分类 | 编号范围 | 目录位置 | 适用人群 | FAQ 文档 |
+|------|---------|---------|----------|----------|
+| **入门/初学者** | 0-99 | 根目录 | 初次接触 AI 工具的开发者 | [99-入门常见问题FAQ.md](claude-code-quickstart/99-入门常见问题FAQ.md) |
+| **进阶** | 100-499 | advanced/ | 希望提升效率和降低成本的用户 | [499-进阶常见问题FAQ.md](claude-code-quickstart/advanced/499-进阶常见问题FAQ.md) |
+| **高级** | 500-899 | expert/ | Team Leader、架构师 | [899-高级开发常见问题FAQ.md](claude-code-quickstart/expert/899-高级开发常见问题FAQ.md) |
+| **参考资料** | 900-999 | reference/ | 对 AI 原理和前沿技术感兴趣的读者 | - |
 
 ## 📖 各分类详细说明
 
@@ -28,10 +28,12 @@
 - ❌ 避免长篇大论和复杂概念
 
 **已有文档**：
-- [0-基本知识.md](claude-code-usage-guidebook/0-基本知识.md)
-- [1-环境相关.md](claude-code-usage-guidebook/1-环境相关.md)
-- [2-ClaudeCode快速入门.md](claude-code-usage-guidebook/2-ClaudeCode快速入门.md)
-- [3-Skill使用指南.md](claude-code-usage-guidebook/3-Skill使用指南.md)
+- [0-基本知识.md](claude-code-quickstart/0-基本知识.md)
+- [1-环境相关.md](claude-code-quickstart/1-环境相关.md)
+  - [1.1-AWS-IAM准备.md](claude-code-quickstart/1.1-AWS-IAM准备.md)
+  - [1.2-Bedrock环境配置.md](claude-code-quickstart/1.2-Bedrock环境配置.md)
+- [2-ClaudeCode快速入门.md](claude-code-quickstart/2-ClaudeCode快速入门.md)
+- [3-Skill使用指南.md](claude-code-quickstart/3-Skill使用指南.md)
 
 ### 进阶（100-499）
 
@@ -46,11 +48,12 @@
 - ❌ 避免过度技术化的深入细节
 
 **已有文档**：
-- [100-AI通用知识.md](claude-code-usage-guidebook/100-AI通用知识.md)
-- [110-核心概念.md](claude-code-usage-guidebook/110-核心概念.md)
-- [120-高级Prompt技巧.md](claude-code-usage-guidebook/120-高级Prompt技巧.md)
-- [130-使用技巧.md](claude-code-usage-guidebook/130-使用技巧.md)
-- [140-成本与安全.md](claude-code-usage-guidebook/140-成本与安全.md)
+- [advanced/README.md](claude-code-quickstart/advanced/README.md) - 进阶内容索引
+- [100-AI通用知识.md](claude-code-quickstart/advanced/100-AI通用知识.md)
+- [110-核心概念.md](claude-code-quickstart/advanced/110-核心概念.md)
+- [120-高级Prompt技巧.md](claude-code-quickstart/advanced/120-高级Prompt技巧.md)
+- [130-使用技巧.md](claude-code-quickstart/advanced/130-使用技巧.md)
+- [140-成本与安全.md](claude-code-quickstart/advanced/140-成本与安全.md)
 
 ### 高级（500-899）
 
@@ -65,13 +68,14 @@
 - ❌ 避免大量代码实现细节（保持文档简洁）
 
 **已有文档**：
-- [500-Agent与Skill开发.md](claude-code-usage-guidebook/500-Agent与Skill开发.md)
-- [510-CLAUDE.md编写指南.md](claude-code-usage-guidebook/510-CLAUDE.md编写指南.md)
-- [520-团队协作最佳实践.md](claude-code-usage-guidebook/520-团队协作最佳实践.md)
-- [530-Memory系统高级应用.md](claude-code-usage-guidebook/530-Memory系统高级应用.md)
-- [540-性能调优与监控.md](claude-code-usage-guidebook/540-性能调优与监控.md)
+- [expert/README.md](claude-code-quickstart/expert/README.md) - 高级开发索引
+- [500-Agent与Skill开发.md](claude-code-quickstart/expert/500-Agent与Skill开发.md)
+- [510-CLAUDE.md编写指南.md](claude-code-quickstart/expert/510-CLAUDE.md编写指南.md)
+- [520-团队协作最佳实践.md](claude-code-quickstart/expert/520-团队协作最佳实践.md)
+- [530-Memory系统高级应用.md](claude-code-quickstart/expert/530-Memory系统高级应用.md)
+- [540-性能调优与监控.md](claude-code-quickstart/expert/540-性能调优与监控.md)
 
-### 其他杂项（900-999）
+### 参考资料（900-999）
 
 **目标读者**：对 AI 原理、前沿技术、工具对比感兴趣的读者
 
@@ -84,8 +88,9 @@
 - ✅ 鼓励引用权威资料
 
 **已有文档**：
-- [900-设计哲学.md](claude-code-usage-guidebook/900-设计哲学.md)
-- [910-其他AI工具对比.md](claude-code-usage-guidebook/910-其他AI工具对比.md)
+- [reference/README.md](claude-code-quickstart/reference/README.md) - 参考资料索引
+- [900-设计哲学.md](claude-code-quickstart/reference/900-设计哲学.md)
+- [910-其他AI工具对比.md](claude-code-quickstart/reference/910-其他AI工具对比.md)
 
 ## 📝 文档命名规范
 
