@@ -396,7 +396,7 @@
 
 ### 示例 1：检查单个文档（模式 A）
 ```
-用户：检查 claude-code-usage-guidebook/000-基本知识.md
+用户：检查 claude-code-usage-guidebook/基本知识.md
 Agent：[直接在主对话中检查并输出结果]
 ```
 
@@ -423,9 +423,9 @@ Agent：
 ├── 高级文档检查报告.md          # Sub-Agent 3 输出
 ├── 杂项文档检查报告.md          # Sub-Agent 4 输出
 ├── 跨类型重复检查报告.md        # Sub-Agent 5 输出
-├── doc-summary-000-基本知识.json
-├── doc-summary-001-环境相关.json
-├── doc-summary-100-AI通用知识.json
+├── doc-summary-基本知识.json
+├── doc-summary-010-环境相关.json
+├── doc-summary-AI通用知识.json
 └── ...
 ```
 

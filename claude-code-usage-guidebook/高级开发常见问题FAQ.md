@@ -20,7 +20,7 @@
 - Prompt中引用不存在的变量
 - 文件权限问题
 
-**相关文档**：[600-Agent与Skill开发.md](600-Agent与Skill开发.md)
+**相关文档**：[Agent与Skill开发.md](Agent与Skill开发.md)
 
 ---
 

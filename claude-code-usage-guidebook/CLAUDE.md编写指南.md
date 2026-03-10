@@ -141,4 +141,4 @@ A: 及时更新CLAUDE.md，并通知团队。
 
 ---
 
-**相关文档**：[600-Agent与Skill开发.md](600-Agent与Skill开发.md) | [620-团队协作最佳实践.md](620-团队协作最佳实践.md)
+**相关文档**：[Agent与Skill开发.md](Agent与Skill开发.md) | [团队协作最佳实践.md](团队协作最佳实践.md)

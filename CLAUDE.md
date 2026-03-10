@@ -8,9 +8,9 @@
 
 | 分类 | 编号范围 | 适用人群 | FAQ 文档 |
 |------|---------|----------|----------|
-| **入门/初学者** | 000-099 | 初次接触 AI 工具的开发者 | [099-入门常见问题FAQ.md](claude-code-usage-guidebook/099-入门常见问题FAQ.md) |
-| **进阶** | 100-499 | 希望提升效率和降低成本的用户 | [499-进阶常见问题FAQ.md](claude-code-usage-guidebook/499-进阶常见问题FAQ.md) |
-| **高级** | 500-899 | Team Leader、架构师 | [899-高级开发常见问题FAQ.md](claude-code-usage-guidebook/899-高级开发常见问题FAQ.md) |
+| **入门/初学者** | 000-099 | 初次接触 AI 工具的开发者 | [入门常见问题FAQ.md](claude-code-usage-guidebook/入门常见问题FAQ.md) |
+| **进阶** | 100-499 | 希望提升效率和降低成本的用户 | [进阶常见问题FAQ.md](claude-code-usage-guidebook/进阶常见问题FAQ.md) |
+| **高级** | 500-899 | Team Leader、架构师 | [高级开发常见问题FAQ.md](claude-code-usage-guidebook/高级开发常见问题FAQ.md) |
 | **其他杂项** | 900-999 | 对 AI 原理和前沿技术感兴趣的读者 | - |
 
 ## 📖 各分类详细说明
@@ -28,10 +28,10 @@
 - ❌ 避免长篇大论和复杂概念
 
 **已有文档**：
-- [000-基本知识.md](claude-code-usage-guidebook/000-基本知识.md)
-- [001-环境相关.md](claude-code-usage-guidebook/001-环境相关.md)
-- [002-ClaudeCode快速入门.md](claude-code-usage-guidebook/002-ClaudeCode快速入门.md)
-- [003-Skill使用指南.md](claude-code-usage-guidebook/003-Skill使用指南.md)
+- [基本知识.md](claude-code-usage-guidebook/基本知识.md)
+- [010-环境相关.md](claude-code-usage-guidebook/010-环境相关.md)
+- [ClaudeCode快速入门.md](claude-code-usage-guidebook/ClaudeCode快速入门.md)
+- [Skill使用指南.md](claude-code-usage-guidebook/Skill使用指南.md)
 
 ### 进阶（100-499）
 
@@ -47,11 +47,11 @@
 
 **已有文档**：
 - [advanced/README.md](claude-code-quickstart/advanced/README.md) - 进阶内容索引
-- [100-AI通用知识.md](claude-code-quickstart/advanced/100-AI通用知识.md)
-- [110-核心概念.md](claude-code-quickstart/advanced/110-核心概念.md)
-- [120-高级Prompt技巧.md](claude-code-quickstart/advanced/120-高级Prompt技巧.md)
-- [130-使用技巧.md](claude-code-quickstart/advanced/130-使用技巧.md)
-- [140-成本与安全.md](claude-code-quickstart/advanced/140-成本与安全.md)
+- [AI通用知识.md](claude-code-quickstart/advanced/AI通用知识.md)
+- [核心概念.md](claude-code-quickstart/advanced/核心概念.md)
+- [高级Prompt技巧.md](claude-code-quickstart/advanced/高级Prompt技巧.md)
+- [使用技巧.md](claude-code-quickstart/advanced/使用技巧.md)
+- [成本与安全.md](claude-code-quickstart/advanced/成本与安全.md)
 
 ### 高级（500-899）
 
@@ -87,8 +87,8 @@
 
 **已有文档**：
 - [reference/README.md](claude-code-quickstart/reference/README.md) - 参考资料索引
-- [900-设计哲学.md](claude-code-quickstart/reference/900-设计哲学.md)
-- [910-其他AI工具对比.md](claude-code-quickstart/reference/910-其他AI工具对比.md)
+- [设计哲学.md](claude-code-quickstart/reference/设计哲学.md)
+- [其他AI工具对比.md](claude-code-quickstart/reference/其他AI工具对比.md)
 
 ## 📝 文档命名规范
 
@@ -97,10 +97,10 @@
 ```
 
 **示例**：
-- `000-基本知识.md`（入门）
-- `120-高级Prompt技巧.md`（进阶）
+- `基本知识.md`（入门）
+- `高级Prompt技巧.md`（进阶）
 - `500-Agent与Skill开发.md`（高级）
-- `900-设计哲学.md`（杂项）
+- `设计哲学.md`（杂项）
 
 **注意事项**：
 - 编号需要补零至三位数字（使用 `001` 而非 `1`）

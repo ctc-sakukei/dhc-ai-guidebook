@@ -8,7 +8,7 @@
 
 ### 设计哲学
 
-- **[900-设计哲学.md](900-设计哲学.md)**
+- **[设计哲学.md](设计哲学.md)**
   - Claude Code 的设计理念
   - Agent 系统架构思想
   - 为什么选择这样的交互方式
@@ -16,7 +16,7 @@
 
 ### 工具对比
 
-- **[910-其他AI工具对比.md](910-其他AI工具对比.md)**
+- **[其他AI工具对比.md](其他AI工具对比.md)**
   - GitHub Copilot vs Claude Code
   - Cursor vs Claude Code
   - Windsurf vs Claude Code
