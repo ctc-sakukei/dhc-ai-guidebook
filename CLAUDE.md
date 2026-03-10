@@ -6,16 +6,16 @@
 
 文档采用四级分类，通过编号和目录区分难度和适用人群：
 
-| 分类 | 编号范围 | 目录位置 | 适用人群 | FAQ 文档 |
-|------|---------|---------|----------|----------|
-| **入门/初学者** | 0-99 | 根目录 | 初次接触 AI 工具的开发者 | [99-入门常见问题FAQ.md](claude-code-quickstart/99-入门常见问题FAQ.md) |
-| **进阶** | 100-499 | advanced/ | 希望提升效率和降低成本的用户 | [499-进阶常见问题FAQ.md](claude-code-quickstart/advanced/499-进阶常见问题FAQ.md) |
-| **高级** | 500-899 | expert/ | Team Leader、架构师 | [899-高级开发常见问题FAQ.md](claude-code-quickstart/expert/899-高级开发常见问题FAQ.md) |
-| **参考资料** | 900-999 | reference/ | 对 AI 原理和前沿技术感兴趣的读者 | - |
+| 分类 | 编号范围 | 适用人群 | FAQ 文档 |
+|------|---------|----------|----------|
+| **入门/初学者** | 000-099 | 初次接触 AI 工具的开发者 | [099-入门常见问题FAQ.md](claude-code-usage-guidebook/099-入门常见问题FAQ.md) |
+| **进阶** | 100-499 | 希望提升效率和降低成本的用户 | [499-进阶常见问题FAQ.md](claude-code-usage-guidebook/499-进阶常见问题FAQ.md) |
+| **高级** | 500-899 | Team Leader、架构师 | [899-高级开发常见问题FAQ.md](claude-code-usage-guidebook/899-高级开发常见问题FAQ.md) |
+| **其他杂项** | 900-999 | 对 AI 原理和前沿技术感兴趣的读者 | - |
 
 ## 📖 各分类详细说明
 
-### 入门/初学者（0-99）
+### 入门/初学者（000-099）
 
 **目标读者**：对 AI 工具不熟悉，需要快速上手完成任务的开发者
 
@@ -28,12 +28,10 @@
 - ❌ 避免长篇大论和复杂概念
 
 **已有文档**：
-- [0-基本知识.md](claude-code-quickstart/0-基本知识.md)
-- [1-环境相关.md](claude-code-quickstart/1-环境相关.md)
-  - [1.1-AWS-IAM准备.md](claude-code-quickstart/1.1-AWS-IAM准备.md)
-  - [1.2-Bedrock环境配置.md](claude-code-quickstart/1.2-Bedrock环境配置.md)
-- [2-ClaudeCode快速入门.md](claude-code-quickstart/2-ClaudeCode快速入门.md)
-- [3-Skill使用指南.md](claude-code-quickstart/3-Skill使用指南.md)
+- [000-基本知识.md](claude-code-usage-guidebook/000-基本知识.md)
+- [001-环境相关.md](claude-code-usage-guidebook/001-环境相关.md)
+- [002-ClaudeCode快速入门.md](claude-code-usage-guidebook/002-ClaudeCode快速入门.md)
+- [003-Skill使用指南.md](claude-code-usage-guidebook/003-Skill使用指南.md)
 
 ### 进阶（100-499）
 
@@ -99,15 +97,15 @@
 ```
 
 **示例**：
-- `0-基本知识.md`（入门）
+- `000-基本知识.md`（入门）
 - `120-高级Prompt技巧.md`（进阶）
 - `500-Agent与Skill开发.md`（高级）
 - `900-设计哲学.md`（杂项）
 
 **注意事项**：
-- 编号不需要补零（使用 `1` 而非 `001`）
+- 编号需要补零至三位数字（使用 `001` 而非 `1`）
 - 标题使用中文，简洁明了
-- FAQ 文档固定使用 `99`、`499`、`899` 编号
+- FAQ 文档固定使用 `099`、`499`、`899` 编号
 
 ## ✍️ 新增文档流程
 

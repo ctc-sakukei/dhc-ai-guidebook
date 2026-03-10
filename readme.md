@@ -19,4 +19,4 @@ AI 配置和工具：
 
 ### [claude-code-usage-guidebook/](claude-code-usage-guidebook/)
 
-Claude Code 使用文档，按难度分级（入门 0-99、进阶 100-499、高级 500-899、杂项 900-999），包含基础知识、核心概念、使用技巧、Agent/Skill 开发、团队协作等主题。
+Claude Code 使用文档，按难度分级（入门 000-099、进阶 100-499、高级 500-899、杂项 900-999），包含基础知识、核心概念、使用技巧、Agent/Skill 开发、团队协作等主题。
