@@ -1,7 +1,4 @@
-# 510-CLAUDE.md编写指南
-
-> **难度级别**：⭐⭐⭐ 高级
-> **目标读者**：Team Leader，需要为项目定制CLAUDE.md
+# CLAUDE.md编写指南
 
 ## CLAUDE.md的作用
 
@@ -144,4 +141,4 @@ A: 及时更新CLAUDE.md，并通知团队。
 
 ---
 
-**相关文档**：[500-Agent与Skill开发.md](500-Agent与Skill开发.md) | [520-团队协作最佳实践.md](520-团队协作最佳实践.md)
+**相关文档**：[600-Agent与Skill开发.md](600-Agent与Skill开发.md) | [620-团队协作最佳实践.md](620-团队协作最佳实践.md)

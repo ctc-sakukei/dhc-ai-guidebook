@@ -1,8 +1,5 @@
 # 500-Agent与Skill开发
 
-> **难度级别**：⭐⭐⭐ 高级
-> **目标读者**：Team Leader，需要定制Agent/Skill
-
 ## Agent
 
 ### 定义
