@@ -29,11 +29,11 @@
 
 > 适合已掌握基本使用，希望提升效率和降低成本的用户
 
-- [100-AI通用知识.md](advanced/100-AI通用知识.md) - AI 工作原理
-- [110-核心概念.md](advanced/110-核心概念.md) - Claude Code 机制
-- [120-高级Prompt技巧.md](advanced/120-高级Prompt技巧.md) - 提示词技巧
-- [130-使用技巧.md](advanced/130-使用技巧.md) - 实用技巧
-- [140-成本与安全.md](advanced/140-成本与安全.md) - 成本控制
+- [AI通用知识.md](advanced/AI通用知识.md) - AI 工作原理
+- [核心概念.md](advanced/核心概念.md) - Claude Code 机制
+- [高级Prompt技巧.md](advanced/高级Prompt技巧.md) - 提示词技巧
+- [使用技巧.md](advanced/使用技巧.md) - 实用技巧
+- [成本与安全.md](advanced/成本与安全.md) - 成本控制
 
 📌 [查看完整进阶内容索引](advanced/README.md)
 
@@ -57,8 +57,8 @@
 
 > 对 AI 原理、工具对比感兴趣的读者
 
-- [900-设计哲学.md](reference/900-设计哲学.md) - Claude Code 设计理念
-- [910-其他AI工具对比.md](reference/910-其他AI工具对比.md) - AI 工具横向对比
+- [设计哲学.md](reference/设计哲学.md) - Claude Code 设计理念
+- [其他AI工具对比.md](reference/其他AI工具对比.md) - AI 工具横向对比
 
 📌 [查看参考资料索引](reference/README.md)
 
@@ -79,8 +79,8 @@ claude-code-quickstart/
 │
 ├── advanced/                        ← 进阶内容
 │   ├── README.md
-│   ├── 100-AI通用知识.md
-│   ├── 110-核心概念.md
+│   ├── AI通用知识.md
+│   ├── 核心概念.md
 │   └── ...
 │
 ├── expert/                          ← 高级开发
@@ -90,6 +90,6 @@ claude-code-quickstart/
 │
 └── reference/                       ← 参考资料
     ├── README.md
-    ├── 900-设计哲学.md
-    └── 910-其他AI工具对比.md
+    ├── 设计哲学.md
+    └── 其他AI工具对比.md
 ```

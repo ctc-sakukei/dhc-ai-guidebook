@@ -198,7 +198,7 @@
 - **标准化、重复性** → 用Skill
 - **灵活、临时性** → 用Prompt
 
-**相关文档**：[003-Skill使用指南.md](003-Skill使用指南.md)
+**相关文档**：[Skill使用指南.md](Skill使用指南.md)
 
 ---
 
@@ -212,14 +212,14 @@
    - 安装WSL（如需跨系统）
    - 安装Claude Code CLI
    - 配置VSCode Remote-WSL
-   - 参考：[001-环境相关.md](001-环境相关.md)
+   - 参考：[010-环境相关.md](010-环境相关.md)
 
 2. **了解基础概念**（15分钟）
-   - 阅读[000-基本知识.md](000-基本知识.md)
+   - 阅读[基本知识.md](基本知识.md)
    - 了解Prompt、Token、Context Window
 
 3. **快速入门实践**（30分钟）
-   - 跟随[002-ClaudeCode快速入门.md](002-ClaudeCode快速入门.md)
+   - 跟随[ClaudeCode快速入门.md](ClaudeCode快速入门.md)
    - 尝试第一个对话
    - 执行第一个Skill（如项目提供）
 
@@ -257,9 +257,9 @@
 
 4. **切换模型**：
    - 简单任务可使用更快的模型
-   - 参考：[000-基本知识.md](000-基本知识.md)
+   - 参考：[基本知识.md](基本知识.md)
 
-**相关文档**：[002-ClaudeCode快速入门.md](002-ClaudeCode快速入门.md)
+**相关文档**：[ClaudeCode快速入门.md](ClaudeCode快速入门.md)
 
 ---
 
@@ -307,7 +307,7 @@
 3. **配置自动刷新**：
    - VSCode设置中启用`files.autoSave`
 
-**相关文档**：[001-环境相关.md](001-环境相关.md)
+**相关文档**：[010-环境相关.md](010-环境相关.md)
 
 ---
 
@@ -331,9 +331,9 @@
 如果本FAQ未能解决你的问题：
 
 1. **查看更详细的文档**：
-   - [001-环境相关.md](001-环境相关.md) - 环境配置详解
-   - [002-ClaudeCode快速入门.md](002-ClaudeCode快速入门.md) - 入门教程
-   - [003-Skill使用指南.md](003-Skill使用指南.md) - Skill使用详解
+   - [010-环境相关.md](010-环境相关.md) - 环境配置详解
+   - [ClaudeCode快速入门.md](ClaudeCode快速入门.md) - 入门教程
+   - [Skill使用指南.md](Skill使用指南.md) - Skill使用详解
 
 2. **查看项目文档**：
    - 项目特定的问题请参考项目README或CLAUDE.md

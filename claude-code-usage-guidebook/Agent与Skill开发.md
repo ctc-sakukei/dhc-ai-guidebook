@@ -521,4 +521,4 @@ instructions: |
 
 **相关文档**：
 - [510-CLAUDE.md编写指南.md](510-CLAUDE.md编写指南.md)
-- [899-高级开发常见问题FAQ.md](899-高级开发常见问题FAQ.md)
+- [高级开发常见问题FAQ.md](高级开发常见问题FAQ.md)
